@@ -1,0 +1,39 @@
+{
+  "name": "rate-random",
+  "version": "1.2.0",
+  "description": "random item by rate.(返回一个按概率的值)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install && mocha test.js",
+    "cov": "npm install && ./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/navyxie/random.git"
+  },
+  "keywords": [
+    "概率",
+    "比率",
+    "rate",
+    "随机数",
+    "random",
+    "number"
+  ],
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^8.3.0",
+    "istanbul": "^0.4.3",
+    "coveralls": "2.11.9"
+  },
+  "author": {
+    "name": "navyxie"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/navyxie/random",
+  "maintainers": [
+    {
+      "name": "navyxie",
+      "email": "navyxie2010@gmail.com"
+    }
+  ]
+}
