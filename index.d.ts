@@ -1,3 +1,3 @@
-export function rate(obj: object): any[];
+export function rate(obj: object): number;
 
-export function randomArr(obj: object, string: string): any[];
+export function randomArr(obj: object, string: string): any;
